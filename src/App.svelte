@@ -61,12 +61,25 @@
         This is a version of the <a
           href="https://folkets-lexikon.csc.kth.se/folkets/folkets.html"
           >folkets-lexikon</a
-        > but made for mobile and without that silly capitalision issue
+        > but made for mobile and without that silly capitalision issue.
+      </p>
+      <p>
+        This is designed to be used in SFI class when google translate is not
+        allowed. It uses a community created database of words to translate
+        between swedish and english
       </p>
       <h3>Who made this?</h3>
       <p>
-        folkets-lexikon made the database (from user submissions) and I made the
-        site
+        folkets-lexikon made the database (from user submissions) and I (<a
+          href="https://github.com/claydegruchy">Clay</a
+        >) made the site
+      </p>
+      <h3>What if I find a translation issue?</h3>
+      <p>
+        Let the people at <a
+          href="https://folkets-lexikon.csc.kth.se/folkets/folkets.html"
+          >folkets-lexikon</a
+        > know
       </p>
       <h3>I think this looks like shit</h3>
       <p>thats just like your opinion, man</p>
