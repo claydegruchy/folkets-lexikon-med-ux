@@ -54,15 +54,22 @@
 
 <nav class="top right">
   <Dialog>
-    <div slot="button">What is this?</div>
+    <div slot="button">❓</div>
     <div slot="content">
       <h2>What is this?</h2>
-
-      <h3>Its a</h3>
-
+      <p>
+        This is a version of the <a
+          href="https://folkets-lexikon.csc.kth.se/folkets/folkets.html"
+          >folkets-lexikon</a
+        > but made for mobile and without that silly capitalision issue
+      </p>
+      <h3>Who made this?</h3>
+      <p>
+        folkets-lexikon made the database (from user submissions) and I made the
+        site
+      </p>
       <h3>I think this looks like shit</h3>
       <p>thats just like your opinion, man</p>
-      <p>why dont you put in a pr?</p>
     </div>
   </Dialog>
 </nav>
