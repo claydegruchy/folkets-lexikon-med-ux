@@ -82,7 +82,6 @@
     </div>
 
     <Search items={keymap_lang} bind:value={searchTerm} />
-
     {#if searchTerm}
       {#each lang[searchTerm] as objs}
         {#each objs as obj}
@@ -170,13 +169,5 @@
 <style>
   .baseline {
     align-items: baseline;
-  }
-
-  :global(.map) {
-    height: 100%;
-    width: 100%;
-  }
-  main {
-    padding: 10px;
   }
 </style>

@@ -64,15 +64,11 @@
 </div>
 
 {#if results.length > 0}
-  <VirtualList
-    bind:this={list}
-    items={results}
-    itemHeight={30}
-    let:item
-    style=""
-  >
-    <button on:click={() => selectItem(item)}>{item}</button>
-  </VirtualList>
+  <div class="VirtualListContainer">
+    <VirtualList bind:this={list} items={results} itemHeight={30} let:item>
+      <button on:click={() => selectItem(item)}>{item}</button>
+    </VirtualList>
+  </div>
 {/if}
 
 <style>

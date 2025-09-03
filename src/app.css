@@ -13,26 +13,33 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-html,
 body {
   margin: 0;
   padding: 0;
-  height: 100%;
-  width: 100%;
-  /* Prevent scrolling */
+  min-width: 320px;
+  height: 100vh;
+  background: #f0f0f0;
 }
 
-body {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  /* Center the app content */
-  min-width: 320px;
-  min-height: 100vh;
-  /* Full screen height */
-  background: #f0f0f0;
-  /* Optional background color */
+main {
+  height: 100vh;
+  /* full viewport */
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  /* center horizontally */
+  padding: 1rem;
+  box-sizing: border-box;
+  overflow-y: auto;
+  /* scroll if content too tall */
 }
+
+.VirtualListContainer {
+  height: 100%;
+  /* fill main */
+}
+
+
 
 #app {
   width: 100%;
@@ -197,12 +204,6 @@ section {
   /* Align all buttons to the left */
 }
 
-  svelte-virtual-list-viewport {
-    display: flex;
-    flex-direction: column;
-    align-items: baseline;
-    justify-content: start;
-  }
 
 .flex {
   display: flex;
